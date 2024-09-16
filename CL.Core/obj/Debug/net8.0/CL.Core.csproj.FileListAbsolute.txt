@@ -1,0 +1,13 @@
+C:\Users\Yurip\source\repos\ConsultorioLegal\CL.Core\bin\Debug\net8.0\CL.Core.deps.json
+C:\Users\Yurip\source\repos\ConsultorioLegal\CL.Core\bin\Debug\net8.0\CL.Core.dll
+C:\Users\Yurip\source\repos\ConsultorioLegal\CL.Core\bin\Debug\net8.0\CL.Core.pdb
+C:\Users\Yurip\source\repos\ConsultorioLegal\CL.Core\obj\Debug\net8.0\CL.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yurip\source\repos\ConsultorioLegal\CL.Core\obj\Debug\net8.0\CL.Core.AssemblyInfoInputs.cache
+C:\Users\Yurip\source\repos\ConsultorioLegal\CL.Core\obj\Debug\net8.0\CL.Core.AssemblyInfo.cs
+C:\Users\Yurip\source\repos\ConsultorioLegal\CL.Core\obj\Debug\net8.0\CL.Core.csproj.CoreCompileInputs.cache
+C:\Users\Yurip\source\repos\ConsultorioLegal\CL.Core\obj\Debug\net8.0\CL.Core.dll
+C:\Users\Yurip\source\repos\ConsultorioLegal\CL.Core\obj\Debug\net8.0\refint\CL.Core.dll
+C:\Users\Yurip\source\repos\ConsultorioLegal\CL.Core\obj\Debug\net8.0\CL.Core.pdb
+C:\Users\Yurip\source\repos\ConsultorioLegal\CL.Core\obj\Debug\net8.0\ref\CL.Core.dll
+C:\Users\Yurip\source\repos\ConsultorioLegal\CL.Core\bin\Debug\net8.0\CL.Core.runtimeconfig.json
+C:\Users\Yurip\source\repos\ConsultorioLegal\CL.Core\obj\Debug\net8.0\CL.Core.genruntimeconfig.cache
