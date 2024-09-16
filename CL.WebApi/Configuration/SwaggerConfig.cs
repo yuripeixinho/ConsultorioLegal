@@ -32,7 +32,6 @@ namespace CL.WebApi.Configuration
                 c.IncludeXmlComments(xmlPath);
                 xmlPath = Path.Combine(AppContext.BaseDirectory, "CL.Core.Shared.xml");
                 c.IncludeXmlComments(xmlPath);
-
             });
         }
     }

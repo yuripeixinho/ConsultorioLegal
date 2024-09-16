@@ -10,9 +10,7 @@ builder.Services.AddFluentValidationConfiguration();
 
 builder.Services.AddAutomapperConfiguration();
 
-builder.Services.
-    AddDbContext<ClContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("ClConnection")));
+builder.Services.AddDataBaseConfiguration(builder.Configuration);
 
 builder.Services.AddDependencyInjectionConfiguration(); 
 
@@ -27,6 +25,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseDatabaseConfiguration();
 
 app.UseHttpsRedirection();
 

@@ -23,7 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CL.Core", "CL.Core\CL.Core.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CL.Tests", "CL.Tests\CL.Tests.csproj", "{D3F911EE-699A-42CA-8B77-C737C9F0F1F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CL.Core.Shared", "CL.Core.Shared\CL.Core.Shared.csproj", "{D3AF1625-5606-4E32-90A7-836E7928D25A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CL.Core.Shared", "CL.Core.Shared\CL.Core.Shared.csproj", "{D3AF1625-5606-4E32-90A7-836E7928D25A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

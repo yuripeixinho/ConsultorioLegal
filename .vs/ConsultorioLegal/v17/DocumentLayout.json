@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FAD0AEFB-117F-4882-B28C-18D8EA6FBC34}|CL.WebApi\\CL.WebApi.csproj|c:\\users\\yurip\\source\\repos\\consultoriolegal\\cl.webapi\\configuration\\swaggerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAD0AEFB-117F-4882-B28C-18D8EA6FBC34}|CL.WebApi\\CL.WebApi.csproj|solutionrelative:cl.webapi\\configuration\\swaggerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3AF1625-5606-4E32-90A7-836E7928D25A}|CL.Core.Shared\\CL.Core.Shared.csproj|c:\\users\\yurip\\source\\repos\\consultoriolegal\\cl.core.shared\\modelviews\\novocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3AF1625-5606-4E32-90A7-836E7928D25A}|CL.Core.Shared\\CL.Core.Shared.csproj|solutionrelative:cl.core.shared\\modelviews\\novocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FAD0AEFB-117F-4882-B28C-18D8EA6FBC34}|CL.WebApi\\CL.WebApi.csproj|c:\\users\\yurip\\source\\repos\\consultoriolegal\\cl.webapi\\configuration\\databaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAD0AEFB-117F-4882-B28C-18D8EA6FBC34}|CL.WebApi\\CL.WebApi.csproj|solutionrelative:cl.webapi\\configuration\\databaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FAD0AEFB-117F-4882-B28C-18D8EA6FBC34}|CL.WebApi\\CL.WebApi.csproj|c:\\users\\yurip\\source\\repos\\consultoriolegal\\cl.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FAD0AEFB-117F-4882-B28C-18D8EA6FBC34}|CL.WebApi\\CL.WebApi.csproj|solutionrelative:cl.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAD0AEFB-117F-4882-B28C-18D8EA6FBC34}|CL.WebApi\\CL.WebApi.csproj|c:\\users\\yurip\\source\\repos\\consultoriolegal\\cl.webapi\\configuration\\fluentvalidationconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAD0AEFB-117F-4882-B28C-18D8EA6FBC34}|CL.WebApi\\CL.WebApi.csproj|solutionrelative:cl.webapi\\configuration\\fluentvalidationconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,61 +18,42 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.WebApi\\Program.cs",
               "RelativeDocumentMoniker": "CL.WebApi\\Program.cs",
               "ToolTip": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.WebApi\\Program.cs",
               "RelativeToolTip": "CL.WebApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAQwBsAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwA4AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T21:57:34.891Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NovoCliente.cs",
-              "DocumentMoniker": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.Core.Shared\\ModelViews\\NovoCliente.cs",
-              "RelativeDocumentMoniker": "CL.Core.Shared\\ModelViews\\NovoCliente.cs",
-              "ToolTip": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.Core.Shared\\ModelViews\\NovoCliente.cs",
-              "RelativeToolTip": "CL.Core.Shared\\ModelViews\\NovoCliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T22:13:15.578Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FluentValidationConfig.cs",
-              "DocumentMoniker": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.WebApi\\Configuration\\FluentValidationConfig.cs",
-              "RelativeDocumentMoniker": "CL.WebApi\\Configuration\\FluentValidationConfig.cs",
-              "ToolTip": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.WebApi\\Configuration\\FluentValidationConfig.cs",
-              "RelativeToolTip": "CL.WebApi\\Configuration\\FluentValidationConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T22:04:23.467Z"
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SwaggerConfig.cs",
-              "DocumentMoniker": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.WebApi\\Configuration\\SwaggerConfig.cs",
-              "RelativeDocumentMoniker": "CL.WebApi\\Configuration\\SwaggerConfig.cs",
-              "ToolTip": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.WebApi\\Configuration\\SwaggerConfig.cs",
-              "RelativeToolTip": "CL.WebApi\\Configuration\\SwaggerConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAWAAAAAAAAAA==",
+              "Title": "DataBaseConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.WebApi\\Configuration\\DataBaseConfig.cs",
+              "RelativeDocumentMoniker": "CL.WebApi\\Configuration\\DataBaseConfig.cs",
+              "ToolTip": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.WebApi\\Configuration\\DataBaseConfig.cs",
+              "RelativeToolTip": "CL.WebApi\\Configuration\\DataBaseConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T21:51:26.586Z",
+              "WhenOpened": "2024-09-16T23:09:04.133Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
