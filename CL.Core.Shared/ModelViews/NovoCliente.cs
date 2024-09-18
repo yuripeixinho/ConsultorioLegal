@@ -13,8 +13,8 @@ namespace CL.Core.Shared.ModelViews
     {
         /// <summary>
         /// Nome do cliente
-        /// <example>João do Caminhão</example>
         /// </summary>
+        ///  <example>João do Caminhão</example>
         public string Nome { get; set; }
         /// <summary>
         /// Data do nascimento do cliente
@@ -23,8 +23,8 @@ namespace CL.Core.Shared.ModelViews
         public DateTime DataNascimento { get; set; }
         /// <summary>
         /// Sexo do cliente
-        /// <example>M</example>
         /// </summary>
+        /// <example>M</example>
         public char Sexo { get; set; }
         /// <summary>
         /// Teelfone do cliente

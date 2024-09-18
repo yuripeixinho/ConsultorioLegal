@@ -14,8 +14,8 @@ namespace CL.WebApi.Configuration
 
         public static void UseDatabaseConfiguration(this IApplicationBuilder app)
         {
-            using var serviceScope = app.ApplicationServices.GetRequiredService<IServiceScope>();   
-            using var context = serviceScope.ServiceProvider.GetService<ClContext>();   
+            using var serviceScope = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope();
+            using var context = serviceScope.ServiceProvider.GetService<ClContext>();
 
             if (context != null) 
                 context.Database.Migrate(); // Aplica qualquer migração pendente no contexto do banco de dados. 
