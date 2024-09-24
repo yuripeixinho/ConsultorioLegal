@@ -42,7 +42,8 @@ namespace CL.Data.Migrations
 
                     b.Property<string>("Nome")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
 
                     b.Property<string>("Sexo")
                         .IsRequired()
@@ -58,6 +59,56 @@ namespace CL.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Clientes");
+                });
+
+            modelBuilder.Entity("CL.Core.Domain.Endereco", b =>
+                {
+                    b.Property<int>("ClienteId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CEP")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Cidade")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Complemento")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Estado")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Logradouro")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Numero")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ClienteId");
+
+                    b.ToTable("Enderecos");
+                });
+
+            modelBuilder.Entity("CL.Core.Domain.Endereco", b =>
+                {
+                    b.HasOne("CL.Core.Domain.Cliente", "Cliente")
+                        .WithOne("Endereco")
+                        .HasForeignKey("CL.Core.Domain.Endereco", "ClienteId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Cliente");
+                });
+
+            modelBuilder.Entity("CL.Core.Domain.Cliente", b =>
+                {
+                    b.Navigation("Endereco")
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

@@ -16,12 +16,16 @@ namespace CL.Data.Repository
 
         public async Task<IEnumerable<Cliente>> GetClientesAsync()
         {
-            return await _context.Clientes.AsNoTracking().ToListAsync();
+            return await _context.Clientes
+                .Include(p => p.Endereco)
+                .AsNoTracking().ToListAsync();
         }
 
         public async Task<Cliente> GetClienteAsync(int id)
         {
-            return await _context.Clientes.FindAsync(id); // antes de ir no banco de dados , verifica na pilha do tracking (AsNoTracking()) se já tem a info em memória. Se tiver, nem busca na base de dados, isso é um ganho de perfomance.
+            return await _context.Clientes
+                .Include(p => p.Endereco)
+                .SingleOrDefaultAsync(p => p.Id == id); 
         }
 
         public async Task<Cliente> InsertClienteAsync(Cliente cliente)

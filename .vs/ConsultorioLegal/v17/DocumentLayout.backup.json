@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{747E718D-86EA-4C8B-9754-B23E32F86FD2}|CL.Data\\CL.Data.csproj|c:\\users\\yurip\\source\\repos\\consultoriolegal\\cl.data\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{747E718D-86EA-4C8B-9754-B23E32F86FD2}|CL.Data\\CL.Data.csproj|solutionrelative:cl.data\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FAD0AEFB-117F-4882-B28C-18D8EA6FBC34}|CL.WebApi\\CL.WebApi.csproj|c:\\users\\yurip\\source\\repos\\consultoriolegal\\cl.webapi\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FAD0AEFB-117F-4882-B28C-18D8EA6FBC34}|CL.WebApi\\CL.WebApi.csproj|solutionrelative:cl.webapi\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAD0AEFB-117F-4882-B28C-18D8EA6FBC34}|CL.WebApi\\CL.WebApi.csproj|c:\\users\\yurip\\source\\repos\\consultoriolegal\\cl.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FAD0AEFB-117F-4882-B28C-18D8EA6FBC34}|CL.WebApi\\CL.WebApi.csproj|solutionrelative:cl.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.Data\\Migrations\\20240924000047_add-Endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CL.Data\\Migrations\\20240924000047_add-Endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAD0AEFB-117F-4882-B28C-18D8EA6FBC34}|CL.WebApi\\CL.WebApi.csproj|c:\\users\\yurip\\source\\repos\\consultoriolegal\\cl.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAD0AEFB-117F-4882-B28C-18D8EA6FBC34}|CL.WebApi\\CL.WebApi.csproj|solutionrelative:cl.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F67E4DD-F9BA-4AAE-931F-7F60061CE774}|CL.Core\\CL.Core.csproj|c:\\users\\yurip\\source\\repos\\consultoriolegal\\cl.core\\domain\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F67E4DD-F9BA-4AAE-931F-7F60061CE774}|CL.Core\\CL.Core.csproj|solutionrelative:cl.core\\domain\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7424E977-F468-4F6A-A811-54513CDE29A4}|CL.Manager\\CL.Manager.csproj|c:\\users\\yurip\\source\\repos\\consultoriolegal\\cl.manager\\validator\\novoclientevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7424E977-F468-4F6A-A811-54513CDE29A4}|CL.Manager\\CL.Manager.csproj|solutionrelative:cl.manager\\validator\\novoclientevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7424E977-F468-4F6A-A811-54513CDE29A4}|CL.Manager\\CL.Manager.csproj|c:\\users\\yurip\\source\\repos\\consultoriolegal\\cl.manager\\validator\\novoenderecovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7424E977-F468-4F6A-A811-54513CDE29A4}|CL.Manager\\CL.Manager.csproj|solutionrelative:cl.manager\\validator\\novoenderecovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAD0AEFB-117F-4882-B28C-18D8EA6FBC34}|CL.WebApi\\CL.WebApi.csproj|c:\\users\\yurip\\source\\repos\\consultoriolegal\\cl.webapi\\configuration\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAD0AEFB-117F-4882-B28C-18D8EA6FBC34}|CL.WebApi\\CL.WebApi.csproj|solutionrelative:cl.webapi\\configuration\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAD0AEFB-117F-4882-B28C-18D8EA6FBC34}|CL.WebApi\\CL.WebApi.csproj|c:\\users\\yurip\\source\\repos\\consultoriolegal\\cl.webapi\\configuration\\fluentvalidationconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAD0AEFB-117F-4882-B28C-18D8EA6FBC34}|CL.WebApi\\CL.WebApi.csproj|solutionrelative:cl.webapi\\configuration\\fluentvalidationconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,40 +55,105 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ClientesController.cs",
-              "DocumentMoniker": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.WebApi\\Controllers\\ClientesController.cs",
-              "RelativeDocumentMoniker": "CL.WebApi\\Controllers\\ClientesController.cs",
-              "ToolTip": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.WebApi\\Controllers\\ClientesController.cs",
-              "RelativeToolTip": "CL.WebApi\\Controllers\\ClientesController.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAxwDsAAAAAAAAAAAAAAA==",
+              "Title": "ClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.Data\\Repository\\ClienteRepository.cs",
+              "RelativeDocumentMoniker": "CL.Data\\Repository\\ClienteRepository.cs",
+              "ToolTip": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.Data\\Repository\\ClienteRepository.cs",
+              "RelativeToolTip": "CL.Data\\Repository\\ClienteRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wB8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T23:55:38.276Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "CL.WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.WebApi\\Program.cs",
-              "RelativeToolTip": "CL.WebApi\\Program.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAMwDMAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T23:39:50.914Z",
+              "WhenOpened": "2024-09-24T00:02:32.005Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.WebApi\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "CL.WebApi\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.WebApi\\appsettings.Development.json",
-              "RelativeToolTip": "CL.WebApi\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-17T23:26:04.088Z",
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.WebApi\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "CL.WebApi\\Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.WebApi\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "CL.WebApi\\Controllers\\ClientesController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAmwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T00:01:43.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20240924000047_add-Endereco.cs",
+              "DocumentMoniker": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.Data\\Migrations\\20240924000047_add-Endereco.cs",
+              "RelativeDocumentMoniker": "CL.Data\\Migrations\\20240924000047_add-Endereco.cs",
+              "ToolTip": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.Data\\Migrations\\20240924000047_add-Endereco.cs",
+              "RelativeToolTip": "CL.Data\\Migrations\\20240924000047_add-Endereco.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T00:00:48.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Endereco.cs",
+              "DocumentMoniker": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.Core\\Domain\\Endereco.cs",
+              "RelativeDocumentMoniker": "CL.Core\\Domain\\Endereco.cs",
+              "ToolTip": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.Core\\Domain\\Endereco.cs",
+              "RelativeToolTip": "CL.Core\\Domain\\Endereco.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T00:00:23.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NovoEnderecoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.Manager\\Validator\\NovoEnderecoValidator.cs",
+              "RelativeDocumentMoniker": "CL.Manager\\Validator\\NovoEnderecoValidator.cs",
+              "ToolTip": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.Manager\\Validator\\NovoEnderecoValidator.cs",
+              "RelativeToolTip": "CL.Manager\\Validator\\NovoEnderecoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T23:58:31.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NovoClienteValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.Manager\\Validator\\NovoClienteValidator.cs",
+              "RelativeDocumentMoniker": "CL.Manager\\Validator\\NovoClienteValidator.cs",
+              "ToolTip": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.Manager\\Validator\\NovoClienteValidator.cs",
+              "RelativeToolTip": "CL.Manager\\Validator\\NovoClienteValidator.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA1wB8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T23:57:36.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AutoMapperConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.WebApi\\Configuration\\AutoMapperConfig.cs",
+              "RelativeDocumentMoniker": "CL.WebApi\\Configuration\\AutoMapperConfig.cs",
+              "ToolTip": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.WebApi\\Configuration\\AutoMapperConfig.cs",
+              "RelativeToolTip": "CL.WebApi\\Configuration\\AutoMapperConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T23:57:09.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FluentValidationConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.WebApi\\Configuration\\FluentValidationConfig.cs",
+              "RelativeDocumentMoniker": "CL.WebApi\\Configuration\\FluentValidationConfig.cs",
+              "ToolTip": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.WebApi\\Configuration\\FluentValidationConfig.cs",
+              "RelativeToolTip": "CL.WebApi\\Configuration\\FluentValidationConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T23:56:35.18Z",
               "EditorCaption": ""
             }
           ]
