@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CL.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2e9a6fb739231b64de1a1215c9143a315d68bed")]
 [assembly: System.Reflection.AssemblyProductAttribute("CL.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CL.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

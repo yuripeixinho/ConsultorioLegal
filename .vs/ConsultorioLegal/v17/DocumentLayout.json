@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{FAD0AEFB-117F-4882-B28C-18D8EA6FBC34}|CL.WebApi\\CL.WebApi.csproj|c:\\users\\yurip\\source\\repos\\consultoriolegal\\cl.webapi\\configuration\\fluentvalidationconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAD0AEFB-117F-4882-B28C-18D8EA6FBC34}|CL.WebApi\\CL.WebApi.csproj|solutionrelative:cl.webapi\\configuration\\fluentvalidationconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{747E718D-86EA-4C8B-9754-B23E32F86FD2}|CL.Data\\CL.Data.csproj|c:\\users\\yurip\\source\\repos\\consultoriolegal\\cl.data\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{747E718D-86EA-4C8B-9754-B23E32F86FD2}|CL.Data\\CL.Data.csproj|solutionrelative:cl.data\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F67E4DD-F9BA-4AAE-931F-7F60061CE774}|CL.Core\\CL.Core.csproj|c:\\users\\yurip\\source\\repos\\consultoriolegal\\cl.core\\domain\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F67E4DD-F9BA-4AAE-931F-7F60061CE774}|CL.Core\\CL.Core.csproj|solutionrelative:cl.core\\domain\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -33,43 +20,12 @@
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FluentValidationConfig.cs",
-              "DocumentMoniker": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.WebApi\\Configuration\\FluentValidationConfig.cs",
-              "RelativeDocumentMoniker": "CL.WebApi\\Configuration\\FluentValidationConfig.cs",
-              "ToolTip": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.WebApi\\Configuration\\FluentValidationConfig.cs*",
-              "RelativeToolTip": "CL.WebApi\\Configuration\\FluentValidationConfig.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwQAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T00:06:58.651Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.Core\\Domain\\Cliente.cs",
-              "RelativeDocumentMoniker": "CL.Core\\Domain\\Cliente.cs",
-              "ToolTip": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.Core\\Domain\\Cliente.cs",
-              "RelativeToolTip": "CL.Core\\Domain\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T00:06:22.879Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ClienteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.Data\\Repository\\ClienteRepository.cs",
-              "RelativeDocumentMoniker": "CL.Data\\Repository\\ClienteRepository.cs",
-              "ToolTip": "C:\\Users\\Yurip\\source\\repos\\ConsultorioLegal\\CL.Data\\Repository\\ClienteRepository.cs",
-              "RelativeToolTip": "CL.Data\\Repository\\ClienteRepository.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAmwBoAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T00:02:32.005Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         }

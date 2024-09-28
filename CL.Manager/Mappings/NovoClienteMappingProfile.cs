@@ -13,6 +13,7 @@ namespace CL.Manager.Mappings
                 .ForMember(d => d.DataNascimento, o => o.MapFrom(x => x.DataNascimento.Date));
 
             CreateMap<NovoEndereco, Endereco>();
+            CreateMap<NovoTelefone, Telefone>();
         }
     }
 }

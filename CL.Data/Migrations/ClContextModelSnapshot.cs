@@ -49,10 +49,6 @@ namespace CL.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(1)");
 
-                    b.Property<string>("Telefone")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<DateTime?>("UltimaAtualizacao")
                         .HasColumnType("datetime2");
 
@@ -94,6 +90,71 @@ namespace CL.Data.Migrations
                     b.ToTable("Enderecos");
                 });
 
+            modelBuilder.Entity("CL.Core.Domain.Especialidade", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Descricao")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Especialidades");
+                });
+
+            modelBuilder.Entity("CL.Core.Domain.Medico", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CRM")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Medicos");
+                });
+
+            modelBuilder.Entity("CL.Core.Domain.Telefone", b =>
+                {
+                    b.Property<int>("ClienteID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Numero")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("ClienteID", "Numero");
+
+                    b.ToTable("Telefones");
+                });
+
+            modelBuilder.Entity("EspecialidadeMedico", b =>
+                {
+                    b.Property<int>("EspecialidadesId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MedicosId")
+                        .HasColumnType("int");
+
+                    b.HasKey("EspecialidadesId", "MedicosId");
+
+                    b.HasIndex("MedicosId");
+
+                    b.ToTable("EspecialidadeMedico");
+                });
+
             modelBuilder.Entity("CL.Core.Domain.Endereco", b =>
                 {
                     b.HasOne("CL.Core.Domain.Cliente", "Cliente")
@@ -105,10 +166,38 @@ namespace CL.Data.Migrations
                     b.Navigation("Cliente");
                 });
 
+            modelBuilder.Entity("CL.Core.Domain.Telefone", b =>
+                {
+                    b.HasOne("CL.Core.Domain.Cliente", "Cliente")
+                        .WithMany("Telefones")
+                        .HasForeignKey("ClienteID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Cliente");
+                });
+
+            modelBuilder.Entity("EspecialidadeMedico", b =>
+                {
+                    b.HasOne("CL.Core.Domain.Especialidade", null)
+                        .WithMany()
+                        .HasForeignKey("EspecialidadesId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("CL.Core.Domain.Medico", null)
+                        .WithMany()
+                        .HasForeignKey("MedicosId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("CL.Core.Domain.Cliente", b =>
                 {
                     b.Navigation("Endereco")
                         .IsRequired();
+
+                    b.Navigation("Telefones");
                 });
 #pragma warning restore 612, 618
         }
